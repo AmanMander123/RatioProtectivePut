@@ -68,13 +68,13 @@ int main(int argc, const char * argv[])
 {
     
     //Outfile file handle
-    ofstream outFile("/Users/Aman/Documents/GitHub/RatioProtectivePut/outFile.txt");
+    ofstream outFile(<<INSERT PATH TO OUTPUT FILE>>);
     
     //The data that we want
     data_t data;
     
     //CSV file containing the data
-    ifstream infile("/Users/Aman/Documents/GitHub/RatioProtectivePut/InputFile.csv");
+    ifstream infile(<<INSERT PATH TO INPUT FILE>>);
     infile >> data;
     
     //Complain if something went wrong
